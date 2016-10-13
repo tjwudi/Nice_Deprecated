@@ -1,3 +1,8 @@
+var env = process.env.NODE_ENV || 'development';
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
+
 var Bottr = require('bottr')
 var BottrApp = require('bottr-app')
 
