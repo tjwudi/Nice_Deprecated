@@ -6,7 +6,7 @@ bot.use(new BottrApp())
 bot.use(new Bottr.FacebookMessengerClient())
 
 bot.on('message_received', function (message, session) {
-    session.send('Hello!');
+    session.send('Hello! It\'s now ' + new Date());
 });
 
 bot.listen()
