@@ -2,6 +2,7 @@
 
 docker run \
   --name nice-postgres-dev \
+  -p 5432:5432 \
   -e POSTGRES_PASSWORD=nicedev \
   -e POSTGRES_USER=nicedev \
   -d postgres:9.6.0
