@@ -6,6 +6,7 @@
   "dependencies": {
     "bottr": "git+https://github.com/tjwudi/Bottr.git#master",
     "bottr-app": "^0.2.0",
+    "memjs": "^0.10.0",
     "pg": "^6.1.0",
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.24.3"
