@@ -16,6 +16,9 @@ bot.on('message_received', function (message, session) {
         // Facebook bot is currently the only source of message.
         conversation.handleUserInteraction('facebook', message, session);
     }
+    else {
+        // Drop other messages
+    }
 });
 
 bot.listen()
