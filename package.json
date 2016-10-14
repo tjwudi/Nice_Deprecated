@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bottr": "^0.1.0",
+    "bottr": "git+https://github.com/tjwudi/Bottr.git#master",
     "bottr-app": "^0.2.0",
     "pg": "^6.1.0",
     "pg-hstore": "^2.3.2",
