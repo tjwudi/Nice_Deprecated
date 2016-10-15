@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bottr": "git+https://github.com/tjwudi/Bottr.git#master",
+    "bottr": "git+https://github.com/tjwudi/Bottr.git#eb3db64af36c86130c4c4d0a8e2ae32d4897c718",
     "bottr-app": "^0.2.0",
     "memjs": "^0.10.0",
     "pg": "^6.1.0",
